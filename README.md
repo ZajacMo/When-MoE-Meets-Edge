@@ -52,7 +52,7 @@ This repository provides a comprehensive collection of research papers, open-sou
 ##### Expert Caching & Prefetching
 - (IEEE'25) **EdgeMoE: Empowering Sparse Large Language Models on Mobile Devices** [[paper]](https://doi.ieeecomputersociety.org/10.1109/TMC.2025.3546466)
 - (arXiv'24)**Expertflow: Optimized expert activation and token allocation for efficient mixture-of-experts inference**[[paper]](https://arxiv.org/abs/2410.17954)
-- (arXiv'25)**Mixture of cacheconditional experts for efficient mobile device inference**[[paper]](https://arxiv.org/abs/2412.00099)
+- (arXiv'25)**Mixture of cache-conditional experts for efficient mobile device inference**[[paper]](https://arxiv.org/abs/2412.00099)
 - (ACL'23)**Adaptive gating in mixture-of-experts based language models**[[paper]](https://aclanthology.org/2023.emnlp-main.217/)
 
 ##### Expert Swapping & Offloading
