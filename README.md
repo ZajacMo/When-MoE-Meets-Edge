@@ -135,31 +135,34 @@ language model via adaptive thresholding**[[paper]](https://doi.org/10.1145/3750
 - (ACL'24)**Harder task needs more experts: Dynamic routing in MoE models**[[paper]](https://aclanthology.org/2024.acl-long.696/)
 - (ACL'23)**Adaptive gating in mixture-of-experts based language models**[[paper]](https://aclanthology.org/2023.emnlp-main.217/)
 - (ACM'25)**AdapMoE: Adaptive Sensitivity-based Expert Gating and Management for Efficient MoE Inference**[[paper]](https://doi.org/10.1145/3676536.3676741)
+
 ##### Cache-Aware Routing
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (TMLR'25)**Mixture of cacheconditional experts for efficient mobile device inference**[[paper]](https://arxiv.org/abs/2412.00099)
+- (arXiv'24)**Expertflow: Optimized expert activation and token allocation for efficient mixture-of-experts inference**[[paper]](https://arxiv.org/abs/2410.17954)
+- (arXiv'24)**Promoe: Fast moe-based llm serving using proactive caching**[[paper]](https://arxiv.org/abs/2410.22134)
+
 ##### Load Balance Optimization
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (NeurIPS'24)**Toward efficient inference for mixture of experts**[[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/98bf3b8505c611ac21055dd9d355c66e-Abstract-Conference.html)
+- (ACM'25)**Harnessing intergpu shared memory for seamless moe communication-computation fusion**[[paper]](https://dl.acm.org/doi/10.1145/3710848.3710868)
+- (ICLR'25)**Remoe: Fully differentiable mixture-of-experts with reLU routing**[[paper]](https://openreview.net/forum?id=4D0f16Vwc3)
 
 #### Diverse Experts
 ##### Internal Expert Architecture
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (ACM'24)**Litemoe: Customizing on-device llm serving via proxy submodel tuning**[[paper]](https://doi.org/10.1145/3666025.3699355)
+- (ACL'24)**Swapmoe: Serving off-the-shelf moe-based large language models with tunable memory budget**[[paper]](https://aclanthology.org/2024.acl-long.363/)
+- (EMNLP'25)**HMoE: Heterogeneous mixture of experts for language modeling**[[paper]](https://aclanthology.org/2025.emnlp-main.1115/)
+
 ##### Expert Heterogeneity
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+-(IEEE'25) **EdgeMoE: Empowering Sparse Large Language Models on Mobile Devices** [[paper]](https://doi.ieeecomputersociety.org/10.1109/TMC.2025.3546466)
+- (IEEE'25)**The moe-empowered edge llms deployment: Architecture, challenges, and opportunities**[[paper]](https://ieeexplore.ieee.org/document/11141664)
+- (MobiCom'25)**D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving**[[paper]](https://dl.acm.org/doi/10.1145/3680207.3723493)
+- (aXiv'24)**Hobbit: A mixed precision expert offloading system for fast moe inference**[[paper]](https://doi.org/10.48550/arXiv.2411.01433)
 
 ##### Inter-Expert Parameter Sharing
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (ACL'24)**DeepSeekMoE: Towards ultimate expert specialization in mixture-of-experts language models**[[paper]](https://aclanthology.org/2024.acl-long.70/)
+- (ICML'25)**Delta decompression for moe-based LLMs compression**[[paper]](https://openreview.net/forum?id=ziezViPoN1)
+- (ICML'25)**Moe-SVD: Structured mixture-of-experts LLMs compression via singular value decomposition**[[paper]](https://openreview.net/forum?id=acJ3vdFljk)
+- (EMNLP'25)**Genpoe: Generative passage-level mixture of experts for knowledge enhancement of llms**[[paper]](https://aclanthology.org/2025.findings-emnlp.272/)
 ---
 
 ### Parameter Optimization
@@ -167,72 +170,73 @@ language model via adaptive thresholding**[[paper]](https://doi.org/10.1145/3750
 
 #### Multi-Granularity Quantization
 ##### Expert-Level Granularity
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-##### Intra-Layer Component Granularity
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-##### Channel-Level Granularity
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (ICCV'25)**Mopeq: Mixture of mixed precision quantized experts**[[paper]](https://ieeexplore.ieee.org/document/11376553)
+- (ICLR'26)**Towards global expert-level mixed-precision quantization for mixture-of-experts LLMs**[[paper]](https://openreview.net/forum?id=wAc718O8UM)
+-  (IEEE'25)**Serving moe models on resource-constrained edge devices via dynamic expert swapping**[[paper]](https://ieeexplore.ieee.org/document/11022729)
+- (ACM'25)**AdapMoE: Adaptive Sensitivity-based Expert Gating and Management for Efficient MoE Inference**[[paper]](https://doi.org/10.1145/3676536.3676741)
 
+##### Intra-Layer Component Granularity
+- (ICML'25)**Mxmoe: Mixed-precision quantization for moe with accuracy and performance co-design**[[paper]](:https://openreview.net/forum?id=pXoZLGMNDm)
+- (IEEE'24)**Edgempq: Layer-wise mixed-precision quantization with tightly integrated versatile inference units for edge computing**[[paper]](https://www.computer.org/csdl/journal/tc/2024/11/10633877/1ZlBglVrtZK)
+- (ACM'25)**Pimoe:Towards efficient moe transformer deployment on npu-pim system through throttle-aware task offloading**[[paper]](https://ieeexplore.ieee.org/document/10547183)
+- (IEEE'24)**Block-wise mixed-precision quantization: Enabling high efficiency for practical reram-based dnn accelerators**[[paper]](https://ieeexplore.ieee.org/document/10547183)
+
+##### Channel-Level Granularity
+- (ACL'25)**Automated fine-grained mixture-of-experts quantization**[[paper]](https://aclanthology.org/2025.findings-acl.1386/)
+- (IEEE'100)**Oiso:Outlier-isolated data format for low-bit large language model quantization**[[paper]]()
 
 #### Low-Rank Approximation
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+##### Structured Low-Rank Approximation
+- (IEEE'25)**Ultra memory-efficient on-fpga training of transformers via tensorcompressed optimization**[[paper]](https://ieeexplore.ieee.org/document/11121368)
+- (NeurIPS'23)**Qlora:efficient finetuning of quantized llms**[[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/1feb87871436031bdc0f2beaa62a049b-Paper-Conference.pdf)
+- (IEEE'25)**Toward generating quality test questions and answers using quantized low-rank adapters in llms**[[paper]](https://ieeexplore.ieee.org/document/11005578)
 
 ##### Post-Training Low-Rank Approximation
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (aXiv'23)**Qmoe: Practical sub-1-bit compression of trillion-parameter models**[[paper]](https://arxiv.org/abs/2310.16795)
+- (ICLR'25)**Mixture compressor for mixture-of-experts LLMs gains more**[[paper]](https://openreview.net/forum?id=hheFYjOsWO)
 
 ##### Adaptive Rank Selection
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (ACL'25)**MoRE: A mixture of low-rank experts for adaptive multitask learning**[[paper]](https://aclanthology.org/2025.findings-acl.68/)
+- (ACL'24)**LoRAMoE: Alleviating world knowledge forgetting in large language models via MoE-style plugin**[[paper]](https://aclanthology.org/2024.acl-long.106/)
+- (IEEE'25)**Cannikin:No lagger of slo in concurrent multiple lora llm serving**[[paper]](https://ieeexplore.ieee.org/document/11082562)
 
 
 #### Pruning
 ##### Structured Pruning
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (ACM'22)**Switch transformers: scaling to trillion parameter models with simple and efficient sparsity**[[paper]](https://dl.acm.org/doi/10.5555/3586589.3586709)
+- (IEEE'25)**Serving moe models on resource-constrained edge devices via dynamic expert swapping**[[paper]](https://ieeexplore.ieee.org/document/11022729)
+- (ISCA'24)**Pre-gated moe: An algorithm-system co-design for fast and scalable mixture-of-expert inference**[[paper]](https://www.computer.org/csdl/proceedings-article/isca/2024/265800b018/1Z3pEe79xPW)
+- (NeurIPS'22)**Confident adaptive language modeling**[[paper]](https://papers.neurips.cc/paper_files/paper/2022/file/6fac9e316a4ae75ea244ddcef1982c71-Paper-Conference.pdf)
+- (JMLR'24)**Memory3 : Language modeling with explicit memory**[[paper]](http://dx.doi.org/10.4208/jml.240708)
 
 ##### Unstructured Pruning
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (IEEE'23)**Transcode: Co-design of transformers and accelerators for efficient training and inference**[[paper]](https://ieeexplore.ieee.org/document/10144614)
+- (IEEE'24)**Mobile transformer accelerator exploiting various line sparsity and tile-based dynamic quantization**[[paper]](https://ieeexplore.ieee.org/document/10375766)
+- (IEEE'25)**Efficientmoe: Optimizing mixture-of-experts model training with adaptive load balance**[[paper]](https://ieeexplore.ieee.org/document/10876795)
+- (aXiv'22)**Megablocks:Efficient sparse training with mixture-of-experts**[[paper]](https://arxiv.org/abs/2211.15841)
+
 ##### Hybrid Pruning
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (ICLR'25)**Mixture compressor for mixture-of-experts LLMs gains more**[[paper]](https://openreview.net/forum?id=hheFYjOsWO)
+- (NeurIPS'22)**Mixture-of-experts with expert choice routing**[[paper]](https://papers.neurips.cc/paper_files/paper/2022/file/2f00ecd787b432c1d36f3de9800728eb-Paper-Conference.pdf)
+- (IPDPS'23)**Mpipemoe: Memory efficient moe for pre-trained models with adaptive pipeline parallelism**[[paper]](https://ieeexplore.ieee.org/document/10177396)
 
 #### Knowledge Distillation
 ##### MoE-to-Dense Distillation
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-
-
+- (ACM'22)**Switch transformers: scaling to trillion parameter models with simple and efficient sparsity**[[paper]](https://dl.acm.org/doi/10.5555/3586589.3586709)
+- (aXiv'22)**One student knows all experts know: From sparse to dense**[[paper]](https://arxiv.org/abs/2201.10890)
 
 ##### MoE-to-Small-MoE Distillation
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (COLM'25)**Slimmoe: Structured compression of large moe models via expert slimming and distillation**[[paper]](https://openreview.net/forum?id=oaCUsn391F)
+- (EMNLP'23)**Scaling vision-language models with sparse mixture of experts**[[paper]](https://aclanthology.org/2023.findings-emnlp.758/)
+- (ICLR'25)**LLaVA-mod: Making LLaVA tiny via moe-knowledge distillation**[[paper]](https://openreview.net/forum?id=uWtLOy35WD)
+- (AAAI'24)**“Mode: a mixture-of-experts model with mutual distillation among the experts**[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29539)
+- (NeurIPS'24)**Exploiting activation sparsity with dense to dynamic-k mixture-of-experts conversion**[[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/4c2092ec0b1370cce3fb5965ab255fae-Paper-Conference.pdf)
+- (PMLR'20)**Deep mixture of experts via shallow embedding**[[paper]](https://proceedings.mlr.press/v115/wang20d.html)
 
 ##### Task-Specific Distillation
-- ()** **[[paper]]()
-- ()** **[[paper]]()
-- ()** **[[paper]]()
+- (aXiv'26)**Distilling lightweight domain experts from large ml models by identifying relevant subspaces**[[paper]](https://arxiv.org/abs/2601.05913)
+- (EMNLP'21)**Muppet: Massive multi-task representations with pre-finetuning**[[paper]](https://aclanthology.org/2021.emnlp-main.468/)
+-(IEEE'25) **EdgeMoE: Empowering Sparse Large Language Models on Mobile Devices** [[paper]](https://doi.ieeecomputersociety.org/10.1109/TMC.2025.3546466)
 
 ---
 
