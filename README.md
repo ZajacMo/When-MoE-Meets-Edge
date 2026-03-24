@@ -1,4 +1,4 @@
-# Awesome Edge MoE: Optimization Strategies for LLMs on the Edge
+# When-MoE-Meets-Edge
 
 <div align="center">
      <a href="#" target="_blank"><img src="https://img.shields.io/badge/Paper-Arxiv-red?logo=arxiv&style=flat-square" alt="arXiv"></a>
