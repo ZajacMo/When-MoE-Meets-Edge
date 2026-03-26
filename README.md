@@ -50,7 +50,7 @@ This repository provides a comprehensive collection of research papers, open-sou
 - (Computer'17) **The emergence of edge computing**[[paper]](https://ieeexplore.ieee.org/document/7807196)
 - (IoT-J'16) **Edge computing: Vision and challenges**[[paper]](https://ieeexplore.ieee.org/document/7488250)
 - (COMST'29) **Convergence of edge computing and deep learning: A comprehensive survey**[[paper]](https://ieeexplore.ieee.org/document/8976180)
-- (arXiv'20) **“Communication-Efficient edge ai: Algorithms and systems**[[paper]](https://arxiv.org/abs/2002.09668)
+- (arXiv'20) **Communication-Efficient edge ai: Algorithms and systems**[[paper]](https://arxiv.org/abs/2002.09668)
 - (COMST'20) **Federated learning in mobile edge networks: A comprehensive survey**[[paper]](https://ieeexplore.ieee.org/document/9060868)
 - (COMST'21) **Federated learning for internet of things: A comprehensive survey**[[paper]](https://ieeexplore.ieee.org/document/9415623)
 - (COMST'21) **Federated learning for internet of things: Recent advances, taxonomy, and open challenges**[[paper]](https://ieeexplore.ieee.org/document/9460016)
