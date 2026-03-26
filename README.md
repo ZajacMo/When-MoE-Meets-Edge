@@ -50,7 +50,7 @@ This repository provides a comprehensive collection of research papers, open-sou
 - (Computer'17) **The emergence of edge computing**[[paper]](https://ieeexplore.ieee.org/document/7807196)
 - (IoT-J'16) **Edge computing: Vision and challenges**[[paper]](https://ieeexplore.ieee.org/document/7488250)
 - (COMST'29) **Convergence of edge computing and deep learning: A comprehensive survey**[[paper]](https://ieeexplore.ieee.org/document/8976180)
-- (arXiv'20) **“Communicationefficient edge ai: Algorithms and systems**[[paper]](https://arxiv.org/abs/2002.09668)
+- (arXiv'20) **“Communication-Efficient edge ai: Algorithms and systems**[[paper]](https://arxiv.org/abs/2002.09668)
 - (COMST'20) **Federated learning in mobile edge networks: A comprehensive survey**[[paper]](https://ieeexplore.ieee.org/document/9060868)
 - (COMST'21) **Federated learning for internet of things: A comprehensive survey**[[paper]](https://ieeexplore.ieee.org/document/9415623)
 - (COMST'21) **Federated learning for internet of things: Recent advances, taxonomy, and open challenges**[[paper]](https://ieeexplore.ieee.org/document/9460016)
@@ -66,7 +66,7 @@ This repository provides a comprehensive collection of research papers, open-sou
 - (TMC'25) **EdgeMoE: Empowering Sparse Large Language Models on Mobile Devices** [[paper]](https://doi.ieeecomputersociety.org/10.1109/TMC.2025.3546466)
 - (arXiv'24) **Deep Learning and Machine Learning with GPGPU and CUDA: Unlocking the Power of Parallel Computing** [[paper]](https://arxiv.org/abs/2410.05686)
 - (RAICS'24) **Accelerating native inference model performance in edge devices using tensorrt**  [[paper]](https://ieeexplore.ieee.org/document/10690032)
-- (SOSP'25) ** Ktransformers: Unleashing the full potential of cpu/gpu hybrid inference for moe models**[[paper]](https://dl.acm.org/doi/10.1145/3731569.3764843)
+- (SOSP'25) **Ktransformers: Unleashing the full potential of cpu/gpu hybrid inference for moe models**[[paper]](https://dl.acm.org/doi/10.1145/3731569.3764843)
 
 ##### Expert Caching & Prefetching
 - (TMC'25) **EdgeMoE: Empowering Sparse Large Language Models on Mobile Devices** [[paper]](https://doi.ieeecomputersociety.org/10.1109/TMC.2025.3546466)
